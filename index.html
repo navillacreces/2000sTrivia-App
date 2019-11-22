@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>2000s Trivia Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Tomorrow&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>2000s Trivia Quiz</h1>
+      <div class="flex-container">
+        <div class="questionCount"> Question:<br> <span class="question-count"></span>/6</div>
+          <div class="userScore">Score :<br> <span class="userScoreBoard"></span>/6</div>
+      </div>
+    </header>
+    <section class="startBox">
+      <div class="mainBox">
+       <form class="myMainForm" id="theForm">
+         <legend class="questionHTML"><h2>Welcome to the coolest 2000s Trivia Quiz on the entire Internet</h2></legend>
+         
+         <div class="theGameQuestions"></div>
+         <div class="submit-button" id="submitFinalAnswer"></div>
+         <div class="theRightAnswerWas"></div>
+         <div id="next-button-goes"></div>
+         <div id="play-again"></div>
+
+         <button type="button" id="theStartButton" class="start-button">Start Quiz</button>
+       </form>
+      </div>
+      </div>
+    </section>
+    <footer>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="data.js"></script>
+  </body>
+</html>
